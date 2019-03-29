@@ -1,0 +1,38 @@
+div.container {
+    background-color: #F5D0A9;
+    text-align: center;
+
+}
+
+div.normal > div.standard {
+     position:absoulte;
+     width:70%;
+     height:70%;
+     text-align: right;
+     margin-top:100px;
+}
+div.normal > div.standard > img {
+    position:absoulte;
+    width:60%;
+    height:60%;
+}
+
+
+
+div.container > a > img {
+    margin: 0 50px;
+}
+
+div.row {
+    text-align: center;
+    height: auto;
+}
+div.row > img {
+    width: 400px;
+    height: 200px;
+}
+footer {
+    text-align: center;
+    letter-spacing: 15px;
+    margin: 70px auto 30px auto;
+}
