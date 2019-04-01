@@ -1,9 +1,16 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 div.container {
     background-color: #F5D0A9;
     text-align: center;
-
 }
-
+div.container > a > img {
+    margin: 0 50px;
+}
 div.normal > div.standard {
      position:absoulte;
      width:70%;
@@ -16,23 +23,95 @@ div.normal > div.standard > img {
     width:60%;
     height:60%;
 }
-
-
-
-div.container > a > img {
-    margin: 0 50px;
-}
-
-div.row {
+footer {
     text-align: center;
-    height: auto;
+    letter-spacing: 15px;
+    margin: 70px auto 30px auto;
 }
 div.row > img {
     width: 400px;
     height: 200px;
 }
-footer {
-    text-align: center;
-    letter-spacing: 15px;
-    margin: 70px auto 30px auto;
+div.row > h1.introduce {
+    font-family: "S-CoreDream-3Light", serif;
+    margin: 100px 0 100px 100px;
+    border-bottom: thick double #666666;
+    font-size: 50px;
+}
+div.row > h1.beans {
+    font-family: "S-CoreDream-3Light", serif;
+    margin: 100px 0 100px 150px;
+    border-bottom: thick double #666666;
+    font-size: 50px;
+}
+div.row > h1.blending {
+    font-family: "S-CoreDream-3Light", serif;
+    margin: 100px 0 60px 140px;
+    border-bottom: thick double #666666;
+    font-size: 50px;
+}
+div.row1 > h1 {
+    font-family: "S-CoreDream-3Light", serif;
+    margin: 150px 50px 50px 80px;
+    border-bottom: thick double #666666;
+}
+div.row2 > h1 {
+    font-family: "S-CoreDream-3Light", serif;
+    margin: 200px 50px 50px 80px;
+    border-bottom: thick double #666666;
+}
+div.row3 {
+    margin-bottom: 250px;
+}
+div.row3 > h1 {
+    font-family: "S-CoreDream-3Light", serif;
+    margin: 250px 50px 50px 80px;
+    border-bottom: thick double #666666;
+}
+div.entry {
+    margin-left: 80px;
+}
+div.entry > img {
+    width: 800px;
+    height: 400px;
+    margin-right: 20px;
+}
+div.entry > p.introduce {
+    font-family: S-CoreDream-3Light, serif;
+    line-height: 2.7em;
+    font-size: 19px;
+}
+div.entry > div.moto > p {
+    color: white;
+}
+#blending {
+    width: 800px;
+    height: 480px;
+}
+div.naru {
+    text-align: left;
+    font-size: 22px;
+    font-family: S-CoreDream-3Light, serif;
+    line-height: 2.4em;
+    margin-left: 80px;
+}
+div.naru > img {
+    width: 800px;
+    height: 450px;
+    margin-left: 50px;
+}
+div.naru > p.blending {
+    margin-bottom: 150px;
+}
+div.bean {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+div.bean > div.card {
+    margin: 0 auto;
+}
+div.bean > div.card > div.card-body > p.card-text {
+     font-family: S-CoreDream-3Light, serif;
 }
