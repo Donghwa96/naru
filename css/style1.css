@@ -29,8 +29,11 @@ footer {
     margin: 70px auto 30px auto;
 }
 div.row > img {
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 151.58px;
+    margin-left: 38px;
+    margin-top: -10px;
+
 }
 div.row > h1.introduce {
     font-family: "S-CoreDream-3Light", serif;
@@ -86,7 +89,7 @@ div.entry > div.moto > p {
     color: white;
 }
 #blending {
-    width: 800px;
+    width: 760px;
     height: 480px;
 }
 div.naru {
@@ -99,10 +102,10 @@ div.naru {
 div.naru > img {
     width: 800px;
     height: 450px;
-    margin-left: 50px;
 }
 div.naru > p.blending {
     margin-bottom: 150px;
+    width: 1000px;
 }
 div.bean {
     display: flex;
