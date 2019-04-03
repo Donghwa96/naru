@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+div.coffee1 > div.card {
+    margin: 0 auto;
+}
+div.coffee1 > div.card > div.card-body > p.card-text {
+     font-family: S-CoreDream-3Light, serif;
+
+}
+div.coffee2 > div.card {
+    margin: 0 auto;
+}
+div.coffee2 > div.card > div.card-body > p.card-text {
+     font-family: S-CoreDream-3Light, serif;
+
+}
+div.coffee3 > div.card {
+    margin: 0 auto;
+}
+div.coffee3 > div.card > div.card-body > p.card-text {
+     font-family: S-CoreDream-3Light, serif;
+
+}
+div.coffee1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+div.coffee2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+div.coffee3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+div.row > h1.coffee_title {
+    font-family: "S-CoreDream-3Light", serif;
+    margin: 100px 0 100px 150px;
+    border-bottom: thick double #666666;
+    font-size: 50px;
+}
+div.row > h1.drink_title {
+    font-family: "S-CoreDream-3Light", serif;
+    margin: 100px 0 100px 150px;
+    border-bottom: thick double #666666;
+    font-size: 50px;
+}
+div.drink1 > div.card {
+    margin: 0 auto;
+}
+div.drink1 > div.card > div.card-body > p.card-text {
+     font-family: S-CoreDream-3Light, serif;
+
+}
+div.drink1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
